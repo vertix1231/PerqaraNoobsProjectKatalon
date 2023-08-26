@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.033834">
+<testcase classname="Perqara Login Noob Project" name="Scenario Input Username and Password Login to Main Web" time="0.033834">
+<system-out><![CDATA[Given Navigation to : Main Web Login........................................passed
+When input username standard_user and password secret_sauce to login to web.passed
+Then enter dashboard page...................................................passed
+Given In the dashboard page.................................................passed
+When Click Add to Chart One of Products in Dashboard Product................passed
+When Click Shopping Cart Icon with Number at The Right Top Corner...........passed
+When Click Checkout Shoping Cart............................................passed
+When Input Form ID to Continue Checkout.....................................passed
+When Confirm to Finish Checkout.............................................passed
+Then Succesfuly Buy Product.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "BC30507C00E224F295EB502653409164",
+  "keywordClasses": [
+    {
+      "name": "stepDefinitions.PerqaraStep",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
