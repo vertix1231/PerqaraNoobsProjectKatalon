@@ -23,14 +23,20 @@ WebUI.click(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Lab
 
 WebUI.click(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/button_Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/input_Checkout Your Information_firstName'), 'david')
+WebUI.setText(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/input_Checkout Your Information_firstName'), 
+    'david')
 
-WebUI.setText(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/input_Checkout Your Information_lastName'), 'beckam')
+WebUI.setText(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/input_Checkout Your Information_lastName'), 
+    'beckam')
 
-WebUI.setText(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/input_Checkout Your Information_postalCode'), '16118')
+WebUI.setText(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/input_Checkout Your Information_postalCode'), 
+    '16118')
 
 WebUI.click(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/input_Cancel_continue'))
 
 WebUI.click(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/button_Finish'))
 
 WebUI.click(findTestObject('Object Repository/Buy Shop Product Web/Page_Swag Labs/button_Back Home'))
+
+WebUI.closeBrowser()
+

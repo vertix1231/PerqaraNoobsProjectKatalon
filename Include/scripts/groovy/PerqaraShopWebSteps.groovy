@@ -94,6 +94,7 @@ class PerqaraShopWebSteps {
 
 	@Then("Succesfuly Buy Product")
 	def Succesfuly_Buy_Product() {
+		WebUI.closeBrowser()
 		println "Succesfuly Buy Product pass"
 	}
 }

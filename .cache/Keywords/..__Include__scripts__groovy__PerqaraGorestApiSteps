@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "F09C0A4A5F06EBA3DAF734E40FDB97D7",
+  "keywordFileContentHash": "23418E1F0478CEB22D51A3F92127E35E",
   "keywordClasses": [
     {
       "name": "PerqaraGorestApiSteps",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

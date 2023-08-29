@@ -49,43 +49,34 @@ class PerqaraContactMobileSteps {
 	 */
 	@Given("Go to Contacts App")
 	def Go_to_Contacts_App() {
-		Mobile.startExistingApplication('com.android.contacts')
+		WebUI.callTestCase(findTestCase('Search Phone Contact Other Test Case'), [:], FailureHandling.STOP_ON_FAILURE)
 		println "Go to Contacts App pass"
 	}
 
 	@When("Click search button")
 	def Click_search_button() {
-		Mobile.tap(findTestObject('Object Repository/Search Contact Apps/android.widget.TextView'), 0)
 		println "Click search button pass"
 	}
 
 	@Then("input contact name (.*) in search contact button")
 	def input_contact_name_in_search_contact_button(String status) {
-		Mobile.setText(findTestObject('Object Repository/Search Contact Apps/android.widget.EditText - Search contacts'), 'irsyad gw',
-			0)
 		println "input contact name in search contact button pass"
 	}
-	
+
 	@When("click contact that want to be selected one of the research results")
 	def click_contact_that_want_to_be_selected_one_of_the_research_results() {
-		Mobile.tap(findTestObject('Object Repository/Search Contact Apps/android.widget.TextView - Irsyad Gw'), 0)
 		println "click contact that want to be selected one of the research results pass"
 	}
-	
+
 	@Then("Directing to Next Page Detail Selected Contact Information with (.*)")
 	def Directing_to_Next_Page_Detail_Selected_Contact_Information_with_name(String name) {
-		println status "Directing to Next Page Detail Selected Contact Information with "+name+" pass"
+		println "Directing to Next Page Detail Selected Contact Information with "+name+" pass"
 	}
-	
+
 	@Then("Click back until app close")
 	def Click_back_until_app_close() {
-		Mobile.pressBack()
-		
-		Mobile.pressBack()
-		
-		Mobile.pressBack()
-		
-		Mobile.closeApplication()
 		println "Click back until app close pass"
 	}
 }
+
+

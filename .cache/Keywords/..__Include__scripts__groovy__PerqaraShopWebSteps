@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "B6BBC1EDF601A1FFC20DA971EEB058A5",
+  "keywordFileContentHash": "E49422DA66BA4CD22574C26951FD7FDF",
   "keywordClasses": [
     {
       "name": "PerqaraShopWebSteps",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

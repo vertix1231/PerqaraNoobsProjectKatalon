@@ -24,18 +24,19 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 public class PerqaraGorestApiSteps {
-	
+
 	@Given("Creating User Gorest API to be Update and Delete")
 	def Creating_User_Gorest_API() {
 		WebUI.callTestCase(findTestCase('End to End Gorest User API Test Case'), [:], FailureHandling.STOP_ON_FAILURE)
 		println "Creating User Gorest API to be Update and Delete pass"
+		WebUI.test
 	}
-	
+
 	@When("Update User Gorest API")
 	def Update_User_Gorest_API() {
 		println "Update User Gorest API pass"
 	}
-	
+
 	@Given("Delete User Gorest API")
 	def Delete_User_Gorest_API() {
 		println "Update User Gorest API pass"

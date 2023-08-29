@@ -3,28 +3,28 @@
     "line": 1,
     "elements": [
       {
-        "line": 20,
-        "name": "Scenario End to End Shopping Product Web, Search Contact in Mobile Phone App, CRUD User Gorest API",
+        "line": 17,
+        "name": "Scenario End to End Shopping Product Web Shop",
         "description": "",
-        "id": "perqara-login-noob-project;scenario-end-to-end-shopping-product-web--search-contact-in-mobile-phone-app--crud-user-gorest-api;;2",
+        "id": "perqara-web-noob-project-shop;scenario-end-to-end-shopping-product-web-shop;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4580054700,
+              "duration": 5087520700,
               "status": "passed"
             },
             "line": 4,
             "name": "Navigation to : Main Web Login",
             "match": {
-              "location": "PerqaraLoginWeb.Navigation_to_Main_Web_Login()"
+              "location": "PerqaraLoginWebSteps.Navigation_to_Main_Web_Login()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1746841800,
+              "duration": 1925623600,
               "status": "passed"
             },
             "line": 5,
@@ -40,150 +40,271 @@
                   "offset": 42
                 }
               ],
-              "location": "PerqaraLoginWeb.input_username_and_password_to_login_to_web(String,String)"
+              "location": "PerqaraLoginWebSteps.input_username_and_password_to_login_to_web(String,String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 359400,
+              "duration": 303900,
               "status": "passed"
             },
             "line": 6,
             "name": "enter dashboard page",
             "match": {
-              "location": "PerqaraLoginWeb.enter_dashboard_page()"
+              "location": "PerqaraLoginWebSteps.enter_dashboard_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9243300,
+              "duration": 7673500,
               "status": "passed"
             },
             "line": 7,
             "name": "In the dashboard page",
             "match": {
-              "location": "PerqaraShopWeb.In_the_dashboard_page()"
+              "location": "PerqaraShopWebSteps.In_the_dashboard_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 482492900,
+              "duration": 496867100,
               "status": "passed"
             },
             "line": 8,
             "name": "Click Add to Chart One of Products in Dashboard Product",
             "match": {
-              "location": "PerqaraShopWeb.Click_Add_to_Chart_One_of_Products_in_Dashboard_Product()"
+              "location": "PerqaraShopWebSteps.Click_Add_to_Chart_One_of_Products_in_Dashboard_Product()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 477797200,
+              "duration": 491231600,
               "status": "passed"
             },
             "line": 9,
             "name": "Click Shopping Cart Icon with Number at The Right Top Corner",
             "match": {
-              "location": "PerqaraShopWeb.Click_Shopping_Cart_Icon_with_Number_at_The_Right_Top_Corner()"
+              "location": "PerqaraShopWebSteps.Click_Shopping_Cart_Icon_with_Number_at_The_Right_Top_Corner()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 495107200,
+              "duration": 513050000,
               "status": "passed"
             },
             "line": 10,
             "name": "Click Checkout Shoping Cart",
             "match": {
-              "location": "PerqaraShopWeb.I_verify_the_status_in_step()"
+              "location": "PerqaraShopWebSteps.I_verify_the_status_in_step()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2455505800,
+              "duration": 2533382600,
               "status": "passed"
             },
             "line": 11,
             "name": "Input Form ID to Continue Checkout",
             "match": {
-              "location": "PerqaraShopWeb.Input_Form_ID_to_Continue_Checkout()"
+              "location": "PerqaraShopWebSteps.Input_Form_ID_to_Continue_Checkout()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1005507200,
+              "duration": 981554700,
               "status": "passed"
             },
             "line": 12,
             "name": "Confirm to Finish Checkout",
             "match": {
-              "location": "PerqaraShopWeb.Confirm_to_Finish_Checkout()"
+              "location": "PerqaraShopWebSteps.Confirm_to_Finish_Checkout()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 322500,
+              "duration": 690899600,
               "status": "passed"
             },
             "line": 13,
             "name": "Succesfuly Buy Product",
             "match": {
-              "location": "PerqaraShopWeb.Succesfuly_Buy_Product()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4461434800,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Creating User Gorest API to be Update and Delete",
-            "match": {
-              "location": "PerqaraGorestApi.Creating_User_Gorest_API()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 190500,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Update User Gorest API",
-            "match": {
-              "location": "PerqaraGorestApi.Update_User_Gorest_API()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 259400,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Delete User Gorest API",
-            "match": {
-              "location": "PerqaraGorestApi.Delete_User_Gorest_API()"
+              "location": "PerqaraShopWebSteps.Succesfuly_Buy_Product()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Perqara Login Noob Project",
+    "name": "Perqara Web Noob Project Shop",
     "description": "",
-    "id": "perqara-login-noob-project",
+    "id": "perqara-web-noob-project-shop",
     "keyword": "Feature",
-    "uri": "Include/features/APerqara.feature",
+    "uri": "Include/features/APerqaraWeb.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Scenario End to End CRUD User Gorest API",
+        "description": "",
+        "id": "perqara-api-noob-project;scenario-end-to-end-crud-user-gorest-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "groovy.lang.MissingPropertyException: No such property: test for class: com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords\r\n\tat groovy.lang.MetaClassImpl.invokeStaticMissingProperty(MetaClassImpl.java:1014)\r\n\tat groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1852)\r\n\tat groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1828)\r\n\tat groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3773)\r\n\tat org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:50)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:299)\r\n\tat PerqaraGorestApiSteps.Creating_User_Gorest_API(PerqaraGorestApiSteps.groovy:32)\r\n\tat ✽.Creating User Gorest API to be Update and Delete(Include/features/BPerqaraApi.feature:4)\r\n",
+              "duration": 5290983700,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Creating User Gorest API to be Update and Delete",
+            "match": {
+              "location": "PerqaraGorestApiSteps.Creating_User_Gorest_API()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Update User Gorest API",
+            "match": {
+              "location": "PerqaraGorestApiSteps.Update_User_Gorest_API()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Delete User Gorest API",
+            "match": {
+              "location": "PerqaraGorestApiSteps.Delete_User_Gorest_API()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Perqara Api Noob Project",
+    "description": "",
+    "id": "perqara-api-noob-project",
+    "keyword": "Feature",
+    "uri": "Include/features/BPerqaraApi.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Scenario Search Contact in Mobile Phone App",
+        "description": "",
+        "id": "perqara-mobile-noob-project-contact;scenario-search-contact-in-mobile-phone-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Call Test Case \u0027Test Cases/Search Phone Contact Other Test Case\u0027 failed\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)\r\n\tat PerqaraContactMobileSteps.Go_to_Contacts_App(PerqaraContactMobileSteps.groovy:52)\r\n\tat ✽.Go to Contacts App(Include/features/CPerqaraMobile.feature:4)\r\nCaused by: com.kms.katalon.core.exception.StepFailedException: Unable to start app at: \u0027myandroidapp\\Contacts_4.15.24.554449442.apk\u0027 (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.\r\n\tat com.google.common.base.Preconditions.checkArgument(Preconditions.java:135)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:564)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)\r\n\tat Search Phone Contact Other Test Case.run(Search Phone Contact Other Test Case:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)\r\n\tat PerqaraContactMobileSteps.Go_to_Contacts_App(PerqaraContactMobileSteps.groovy:52)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:70)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:52)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\r\n\tat Runner Test Case.run(Runner Test Case:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1693231602970.run(TempTestSuite1693231602970.groovy:36)\r\n)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.startApplication(StartApplicationKeyword.groovy:63)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword.execute(StartApplicationKeyword.groovy:42)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.startApplication(MobileBuiltInKeywords.groovy:78)\r\n\tat com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$startApplication.call(Unknown Source)\r\n\tat Search Phone Contact Other Test Case.run(Search Phone Contact Other Test Case:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)\r\n\tat com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)\r\n\tat PerqaraContactMobileSteps.Go_to_Contacts_App(PerqaraContactMobileSteps.groovy:52)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:70)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:52)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:105)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy:621)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure5.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:69)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:618)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:718)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)\r\n\tat Runner Test Case.run(Runner Test Case:22)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1693231602970.run(TempTestSuite1693231602970.groovy:36)\r\nCaused by: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.\r\n\tat com.google.common.base.Preconditions.checkArgument(Preconditions.java:135)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startLocalMobileDriver(MobileDriverFactory.java:564)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.startMobileDriver(MobileDriverFactory.java:481)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.doCall(StartApplicationKeyword.groovy:61)\r\n\tat com.kms.katalon.core.mobile.keyword.builtin.StartApplicationKeyword$_startApplication_closure1.call(StartApplicationKeyword.groovy)\r\n\tat com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)\r\n\t... 88 more\r\n",
+              "duration": 560514600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Go to Contacts App",
+            "match": {
+              "location": "PerqaraContactMobileSteps.Go_to_Contacts_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Click search button",
+            "match": {
+              "location": "PerqaraContactMobileSteps.Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "input contact name irsyad Gw in search contact button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "irsyad Gw",
+                  "offset": 19
+                }
+              ],
+              "location": "PerqaraContactMobileSteps.input_contact_name_in_search_contact_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click contact that want to be selected one of the research results",
+            "match": {
+              "location": "PerqaraContactMobileSteps.click_contact_that_want_to_be_selected_one_of_the_research_results()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Directing to Next Page Detail Selected Contact Information with irsyad Gw|",
+            "match": {
+              "arguments": [
+                {
+                  "val": "irsyad Gw|",
+                  "offset": 64
+                }
+              ],
+              "location": "PerqaraContactMobileSteps.Directing_to_Next_Page_Detail_Selected_Contact_Information_with_name(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click back until app close",
+            "match": {
+              "location": "PerqaraContactMobileSteps.Click_back_until_app_close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Perqara Mobile Noob Project Contact",
+    "description": "",
+    "id": "perqara-mobile-noob-project-contact",
+    "keyword": "Feature",
+    "uri": "Include/features/CPerqaraMobile.feature",
     "tags": []
   }
 ]
